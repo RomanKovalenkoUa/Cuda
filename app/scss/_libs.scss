@@ -1,0 +1,19 @@
+
+@import "../libs/bootstrap/scss/bootstrap-reboot.scss";
+@import "../libs/bootstrap/scss/bootstrap-grid.scss";
+@import "../libs/bootstrap/scss/utilities/_sizing.scss";
+// BASE
+@import "../libs/base/_fonts.scss";
+@import "../libs/base/variables";
+@import "../libs/base/mixins";
+@import "../libs/base/fundamentals";
+@import "../libs/base/common.scss";
+// COMPONENTS
+@import "components/_intro.scss";
+@import "components/_services";
+@import "components/_team";
+@import "components/_portfolio";
+@import "components/_about";
+@import "components/_feedback";
+@import "components/_footer";
+

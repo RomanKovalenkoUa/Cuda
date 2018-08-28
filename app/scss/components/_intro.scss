@@ -1,0 +1,181 @@
+.intro {
+    padding-top: 60px;
+    padding-bottom: 168px;
+    background-color: #87509c;
+    color: #fff;
+}
+
+.logo {
+    float: left;
+    margin-left: 42px;
+}
+
+.menu {
+   float: right;
+    margin-right: 30px;
+    margin-top: 4px;
+    ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    text-transform: uppercase;
+}
+    li {
+    display: inline-block;
+    margin-left: 17px;
+}
+}
+
+ 
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    &:hover {
+    background-color: #643a79;
+}
+}
+
+.intro-text {
+    line-height: 45px;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 131px;
+    padding-left: 141px;
+    padding-right: 113px;
+    margin-bottom: 77px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button {
+    
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    text-decoration: none;
+    -webkit-transition: .3s;
+    transition: .3s;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    &:hover {
+    opacity: .7;
+}
+}
+
+.button-orange {
+    border-bottom-color: #c86a40;
+    background-color: #eb7d4b;
+    padding: 19px 84px;
+}
+
+
+.button-green {
+    border-bottom-color: #14a58c;
+    background-color: #17c2a4;
+    padding: 22px 58px;
+}
+
+.button-blue {
+    display: block;
+    border: none;
+    border-bottom:5px solid #299ec5;
+    background-color: #30bae7;
+    padding: 20px 85px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////*/
+@media screen and (max-width: 768px) {
+    .intro {
+    
+    padding-bottom: 80px;
+}
+    .logo {
+    width: 117px;
+    height: 37px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu {
+
+   float: none;
+   margin-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   ul {
+    text-align: center;
+}
+   
+}
+
+.intro-text {
+    
+    font-size: 32px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+
+.button-orange {
+    margin-bottom: 30px;
+    padding: 15px 60px;
+}
+  
+}
+/*///////////////////////////////////////////*/
+@media screen and (max-width: 576px) {
+.intro-text {
+    font-size: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+
+    }
+/*///////////////////////////////////////////////*/
+@media screen and (max-width: 420px) {
+
+.intro-text {
+    
+    font-size: 25px;
+    
+    }
+}
+/*///////////////////////////////////////////////*/
+    @media screen and (max-width: 380px) {
+        .intro-text {
+    
+    font-size: 20px;
+    
+    }
+}
+/*//////////////////////////////////////////////*/
+
+@media screen and (max-width: 320px) {
+.intro-text {
+    
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    }
+    }
